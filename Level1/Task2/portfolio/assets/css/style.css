@@ -1,0 +1,159 @@
+/*  
+   GLOBAL
+   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f5f5f5;
+  color: #1f1f1f;
+  line-height: 1.7;
+}
+
+/*  
+   NAVBAR
+   */
+.navbar {
+  background: #1f1f1f;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  color: #adb5bd !important;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/*  
+   HERO
+   */
+header {
+  background: linear-gradient(
+      rgba(31, 31, 31, 0.9),
+      rgba(31, 31, 31, 0.9)
+    );
+}
+
+header h1 { color: #ffffff; letter-spacing: 1px; }
+header p { color: #adb5bd; max-width: 700px; margin: auto; }
+
+header .btn-primary {
+  background: #ffffff;
+  color: #1f1f1f;
+  border: none;
+}
+header .btn-primary:hover { background: #e5e5e5; }
+
+/*  
+   SECTION BASE
+   */
+section { padding: 90px 0; }
+section h2 { letter-spacing: 1px; }
+
+/*  
+   WHITE SECTIONS
+   */
+.bg-white { background: #ffffff !important; }
+
+/*  
+   ABOUT & OBJECTIVE
+   */
+#about p, #objective p { font-size: 1.05rem; color: #444; }
+
+/*  
+   EDUCATION
+   */
+#education .card {
+  border-radius: 14px;
+  transition: all 0.35s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  text-align: center;
+}
+
+#education .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+#education .card h5 { font-size: 1.1rem; margin-bottom: 10px; }
+#education .card p { font-size: 0.9rem; }
+#education .card i { margin-bottom: 10px; }
+
+/*  
+   CARDS
+   */
+.card {
+  border: none;
+  border-radius: 14px;
+  background: #ffffff;
+  transition: all 0.35s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+/*  
+   SKILLS
+   */
+#skills .card h5 { margin-bottom: 10px; }
+#skills .card p { font-size: 0.95rem; color: #555; }
+
+/*  
+   SOFT SKILLS
+   */
+#soft-skills .card { background: #f8f9fa; }
+
+/*  
+   PROJECTS
+   */
+#projects img { border-radius: 14px 14px 0 0; }
+
+/*  
+   CONTACT
+   */
+#contact { background: #1f1f1f; }
+#contact h2 { color: #ffffff; }
+#contact p { color: #adb5bd; }
+#contact .card { background: #ffffff; border-radius: 16px; }
+#contact input, #contact textarea { border-radius: 10px; padding: 12px; }
+
+/*  
+   FOOTER
+   */
+footer { background: #111; color: #adb5bd; font-size: 0.9rem; }
+
+/*  
+   BUTTONS
+   */
+.btn-outline-light { border-color: #ffffff; color: #ffffff; }
+.btn-outline-light:hover { background: #ffffff; color: #1f1f1f; }
+
+/*  
+   RESPONSIVE
+   */
+@media (max-width: 768px) {
+  header h1 { font-size: 2.2rem; }
+  section { padding: 70px 0; }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" readonly>
+
+    <div class="buttons">
+        <!-- Row 1 -->
+        <button onclick="clearAll()">AC</button>
+        <button onclick="deleteOne()">DE</button>
+        <button onclick="addValue('.')">.</button>
+        <button onclick="addValue('/')">/</button>
+
+        <!-- Row 2 -->
+        <button onclick="addValue('7')">7</button>
+        <button onclick="addValue('8')">8</button>
+        <button onclick="addValue('9')">9</button>
+        <button onclick="addValue('*')">x</button>
+
+        <!-- Row 3 -->
+        <button onclick="addValue('4')">4</button>
+        <button onclick="addValue('5')">5</button>
+        <button onclick="addValue('6')">6</button>
+        <button onclick="addValue('-')">-</button>
+
+        <!-- Row 4 -->
+        <button onclick="addValue('1')">1</button>
+        <button onclick="addValue('2')">2</button>
+        <button onclick="addValue('3')">3</button>
+        <button onclick="addValue('+')">+</button>
+
+        <!-- Row 5 -->
+        <button onclick="addValue('00')">00</button>
+        <button onclick="addValue('0')">0</button>
+        <button class="equal" onclick="calculate()">=</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth(); showGreeting();">
+
+  <div class="dashboard-card">
+    <h2 id="greeting"></h2>
+
+    <p class="sub-text">
+      You are logged in successfully.
+    </p>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <div id="alertBox" class="alert"></div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
