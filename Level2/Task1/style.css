@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #ffffff;
+    background: #494646;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@ body {
 }
 
 .calculator {
-    background: #3f3f3f;   
+    background: #999595;   
     padding: 16px;
     width: 300px;
     border-radius: 10px;
